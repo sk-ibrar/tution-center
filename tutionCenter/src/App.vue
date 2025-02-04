@@ -8,4 +8,6 @@ import homePage from './components/tution-Home/home-Page.vue'
   <homePage />
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
