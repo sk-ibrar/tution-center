@@ -39,11 +39,11 @@
       <h2>Subjects we Offer</h2>
     </div>
     <div class="cardsSection">
-      <ClassCards />
+      <ClassCards/>
     </div>
 
     <!-- Footer -->
-    <FooterTution />
+    <FooterTution/>
 
     <!-- Popup Dialog -->
     <Dialog
@@ -198,7 +198,7 @@ header.scrolled {
 .subjects-title {
   text-align: center;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 
 /* Cards Section */
