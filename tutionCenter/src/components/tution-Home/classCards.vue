@@ -60,18 +60,23 @@
 import Card from 'primevue/card';
 import { ref, onMounted } from 'vue';
 import Carousel from 'primevue/carousel';
+import math from '/public/math.webp';
+import biology from '/public/biology.jpg';
+import chemistery from '/public/chemistery.webp';
+import cta from '/public/computer.jpg';
+import physics from '/public/physics.jpg';
 
 const cards = ref([
     { title: "Mathematics", subtitle: "class 5-8", Content: " Develops Critical Thinking – Enhances logical reasoning and analytical skills.✅ Applicable Everywhere – Used in science, technology, engineering, economics, and daily life.✅ Builds Problem-Solving Skills – Helps tackle real-world challenges effectively.",
-     image: '/public/math.webp'},
+     image: math},
     { title: "Physics", subtitle: "class 5-12",Content:"✅ Explains Natural Phenomena – From gravity to electricity, physics describes the fundamental forces of nature.✅ Drives Technological Advancements – Innovations like computers, smartphones, and medical imaging all stem from physics.✅ Solves Real-World Problems – Used in engineering, space exploration, medicine, and more.", 
-    image: '/public/physics.jpg'},
+    image: physics},
     { title: "Chemistry", subtitle: "class 5-12",Content:"Healthcare: Chemistry is the foundation of pharmaceuticals and medicines. The development of drugs, vaccines, and treatments to combat diseases relies heavily on chemical research.Environment: Understanding chemical processes is crucial to addressing environmental challenges like pollution and climate change.", 
-    image: '/public/chemistery.webp'},
+    image: chemistery},
     { title: "Biology", subtitle: "class 5-12",Content:"Health and Medicine: Biology plays a central role in medicine and healthcare. Understanding the human body’s systems, diseases, and genetic factors helps in diagnosing, treating, and preventing illnesses. Fields like immunology, microbiology, and pharmacology directly impact how we fight infections and develop new treatments.",
-    image: '/public/biology.jpg'},
+    image: biology},
     { title: "Computer Application", subtitle: "class 5-12",Content:"Efficiency and Productivity: Computer applications simplify complex tasks, making individuals and organizations more efficient. For example, spreadsheet software like Excel allows for fast calculations and data analysis, while project management tools help teams stay organized and meet deadlines.",
-     image: '/public/computer.jpg'}
+     image: cta}
 ]);
 
 // Dynamic carousel visibility based on screen width
