@@ -63,15 +63,15 @@ import Carousel from 'primevue/carousel';
 
 const cards = ref([
     { title: "Mathematics", subtitle: "class 5-8", Content: " Develops Critical Thinking – Enhances logical reasoning and analytical skills.✅ Applicable Everywhere – Used in science, technology, engineering, economics, and daily life.✅ Builds Problem-Solving Skills – Helps tackle real-world challenges effectively.",
-     image: '/src/assets/images/math.webp'},
+     image: '/public/math.webp'},
     { title: "Physics", subtitle: "class 5-12",Content:"✅ Explains Natural Phenomena – From gravity to electricity, physics describes the fundamental forces of nature.✅ Drives Technological Advancements – Innovations like computers, smartphones, and medical imaging all stem from physics.✅ Solves Real-World Problems – Used in engineering, space exploration, medicine, and more.", 
-    image: '/src/assets/images/physics.jpg'},
+    image: '/public/physics.jpg'},
     { title: "Chemistry", subtitle: "class 5-12",Content:"Healthcare: Chemistry is the foundation of pharmaceuticals and medicines. The development of drugs, vaccines, and treatments to combat diseases relies heavily on chemical research.Environment: Understanding chemical processes is crucial to addressing environmental challenges like pollution and climate change.", 
-    image: '/src/assets/images/chemistery.webp'},
+    image: '/public/chemistery.webp'},
     { title: "Biology", subtitle: "class 5-12",Content:"Health and Medicine: Biology plays a central role in medicine and healthcare. Understanding the human body’s systems, diseases, and genetic factors helps in diagnosing, treating, and preventing illnesses. Fields like immunology, microbiology, and pharmacology directly impact how we fight infections and develop new treatments.",
-    image: '/src/assets/images/biology.jpg'},
+    image: '/public/biology.jpg'},
     { title: "Computer Application", subtitle: "class 5-12",Content:"Efficiency and Productivity: Computer applications simplify complex tasks, making individuals and organizations more efficient. For example, spreadsheet software like Excel allows for fast calculations and data analysis, while project management tools help teams stay organized and meet deadlines.",
-     image: '/src/assets/images/computer.jpg'}
+     image: '/public/computer.jpg'}
 ]);
 
 // Dynamic carousel visibility based on screen width
